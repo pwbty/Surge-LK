@@ -2,7 +2,7 @@
 #!desc=Unlock Full Membership 
 
 [Script]
-mealime-Mix = requires-body=1,script-path=https://raw.githubusercontent.com/Geczy/Surge-LK/new/scripts/langkhach/Mealime.js,type=http-response,pattern= ^https:\/\/api.mealime.com\/api\/v2\/get_user$
+mealime-Mix = requires-body=1,script-path=https://raw.githubusercontent.com/Geczy/Surge-LK/new/scripts/langkhach/Mealime.js,type=http-response,pattern=^https:\/\/api.mealime.com\/api\/v2\/(get_user|authenticate)$
 
 [MITM]
 hostname = %APPEND% api.mealime.com
