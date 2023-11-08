@@ -1,8 +1,8 @@
-#!name=Unlock Mix 
+#!name=Unlock mealime
 #!desc=Unlock Full Membership 
 
 [Script]
-camera360-Mix = requires-body=1,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/verify_receipt.js,type=http-response,pattern= ^https:\/\/api.mealime.com\/api\/v2\/sync_ios_receipt$
+mealime-Mix = requires-body=1,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/verify_receipt.js,type=http-response,pattern= ^https:\/\/api.mealime.com\/api\/v2\/sync_ios_receipt$
 
 [MITM]
-hostname = %APPEND% bmall.camera360.com
+hostname = %APPEND% api.mealime.com
